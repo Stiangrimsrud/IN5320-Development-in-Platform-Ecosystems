@@ -1,0 +1,85 @@
+body {
+  font-family: Source Sans Pro;
+  background: #282828;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+
+}
+
+@-webkit-keyframes Gradient {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+.title{
+  font-weight: lighter;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  font-weight: lighter;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  font-family: Source Sans Pro;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.project  {
+  text-align: center;
+}
+
+.work {
+  text-align: center;
+}
+
+.para {
+  text-align: center;
+}
+
+.image {
+  filter: invert(100%);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  color: #fff;
+  font-family: Source Sans Pro;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
